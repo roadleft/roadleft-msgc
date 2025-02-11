@@ -13,7 +13,6 @@ import (
 func init() {
 	initializers.LoadEnvVariables()
 	initializers.ConnectToDb()
-	// initializers.SyncDatabse() 不适合
 }
 func main() {
 	// Disable Console Color, you don't need console color when writing the logs to file.
