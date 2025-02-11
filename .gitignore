@@ -26,3 +26,6 @@ go.work.sum
 
 # compiledaemon file
 roadleft-msgc
+
+# log file
+gin.log
